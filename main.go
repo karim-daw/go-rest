@@ -63,6 +63,7 @@ func postAlbums(c *gin.Context) {
 // PUT - update an album by its ID
 // TODO implemented db like posgres
 func updateAlbumByID(c *gin.Context) {
+
 	id := c.Param("id")
 
 	var updateAlbm updateAlbum
